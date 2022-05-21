@@ -2,4 +2,24 @@ body{
     margin: 0px;
     font-family: Arial;
     background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu p{
+    text-transform: uppercase;
+    color: #2d2d2d;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
 }
