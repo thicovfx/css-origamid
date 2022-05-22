@@ -2,11 +2,14 @@ body{
     margin: 0px;
     font-family: Arial;
     background-color: #f7f7f7;
-    padding: 40px;
+    margin-top: 50px;
+    justify-items: center;
+    display: grid;
 }
 
 .menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -22,4 +25,41 @@ body{
 h1{
     font-size: 50px;
     text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px;
+    max-width: 1000px;
+}
+
+.info{
+    display: grid;
+    justify-items: end;
+    background-color: white;
+    text-align: right;
+    padding: 50px;
+    align-content: center;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info .button{
+    background-color: #ee2211;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.grid img{
+    max-width: 100%;
 }
