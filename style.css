@@ -35,7 +35,7 @@ img{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -52,6 +52,17 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
+    position: relative;
+}
+
+.detalhe{
+    background-color: #ee2211;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    right: 470px;
+    top: 30px;
+    border-radius: 5px;
 }
 
 .info{
