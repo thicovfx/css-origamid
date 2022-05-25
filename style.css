@@ -5,12 +5,19 @@ body{
     font-family: Arial;
     background-color: #f7f7f7;
     margin-top: 60px;
+    gap: 50px;
 }
 
 p, h1, h2, h3{margin:0px;}
 
 p{
     font-size: 20px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 }
 
 h1{
@@ -32,12 +39,18 @@ img{
     display: block;
 }
 
-.menu{
+.header{
+    display: grid;
+    justify-items: center;
+
+}
+
+.menu ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin: 40px 0;
+    margin-top: 50px;
 }
 
 .menu a{
@@ -47,6 +60,12 @@ img{
     padding: 15px 30px;
     border-radius: 4px;
     text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.menu a:hover{
+    border: 2px solid #ee2211;
 }
 
 .conteudo{
@@ -123,4 +142,5 @@ footer{
     margin-top: 50px;
     padding: 40px;
     text-align: center;
+    box-sizing: border-box;
 }
