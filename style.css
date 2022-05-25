@@ -13,6 +13,20 @@ p{
     font-size: 20px;
 }
 
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 22px;
+}
+
 img{
     max-width: 100%; 
     display: block;
@@ -35,25 +49,10 @@ img{
     text-decoration: none;
 }
 
-h1{
-    font-size: 35px;
-    text-align: center;
-}
-
-h2{
-    font-size: 30px;
-    text-align: center;
-}
-
-h3{
-    font-size: 22px;
-}
-
 .conteudo{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
-    position: relative;
 }
 
 .detalhe{
@@ -61,7 +60,7 @@ h3{
     width: 60px;
     height: 4px;
     position: absolute;
-    right: 470px;
+    right: -30px;
     top: 30px;
     border-radius: 5px;
 }
@@ -74,6 +73,7 @@ h3{
     padding: 50px;
     align-content: center;
     gap: 25px;
+    position: relative;
 }
 
 .info .button{
