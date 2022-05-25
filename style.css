@@ -160,3 +160,27 @@ footer{
     text-align: center;
     box-sizing: border-box;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 600px){
+
+    .conteudo{
+        grid-template-columns: 1fr;
+    }
+
+    .intro{
+        justify-items: start;
+        text-align: left;
+    }
+
+    .intro::before{
+        display: none;
+    }
+
+    .vantagens-texto{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+}
