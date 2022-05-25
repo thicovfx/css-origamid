@@ -28,7 +28,6 @@ h1{
 
 h2{
     font-size: 2rem;
-    text-align: center;
 }
 
 h3{
@@ -84,6 +83,11 @@ img{
     align-content: center;
     gap: 25px;
     position: relative;
+}
+
+.intro-cover img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .intro::before{
@@ -163,7 +167,27 @@ footer{
 
 /* RESPONSIVE */
 
+@media (max-width: 1000px){
+
+    .conteudo-vantagens{
+        grid-template-columns: 1fr;
+    }
+
+    .vantagens-texto{
+        text-align: center;
+    }
+}
+
 @media (max-width: 600px){
+
+    body{
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    header{
+        gap: 30px;
+    }
 
     .conteudo{
         grid-template-columns: 1fr;
@@ -183,4 +207,15 @@ footer{
         font-size: 3rem;
     }
 
+}
+
+@media (max-width: 400px){
+
+    .vantagens-texto{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
 }
