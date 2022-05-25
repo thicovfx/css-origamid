@@ -11,7 +11,7 @@ body{
 p, h1, h2, h3{margin:0px;}
 
 p{
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.75rem;
 }
 
@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 img{
@@ -62,26 +62,17 @@ img{
     text-decoration: none;
     margin-bottom: 10px;
     display: block;
+    border: 2px solid #f7f7f7;
 }
 
 .menu a:hover{
-    border: 2px solid #ee2211;
+    border-color: #e21;
 }
 
 .conteudo{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
-}
-
-.detalhe{
-    background-color: #ee2211;
-    width: 60px;
-    height: 4px;
-    position: absolute;
-    right: -30px;
-    top: 30px;
-    border-radius: 5px;
 }
 
 .intro{
@@ -95,14 +86,29 @@ img{
     position: relative;
 }
 
+.intro::before{
+    content: "";
+    background-color: #e21;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    right: -30px;
+    top: 30px;
+    border-radius: 5px;
+}
+
 .intro .button{
-    background-color: #ee2211;
+    background-color: #e21;
     color: white;
     text-transform: uppercase;
     padding: 15px 30px;
     border-radius: 4px;
     font-size: 1rem;
     text-decoration: none;
+}
+
+.intro .button:hover{
+    background-color: #900;
 }
 
 .vantagens{
@@ -125,6 +131,16 @@ img{
     grid-template-columns: auto 1fr;
     padding: 20px;
     gap: 10px 20px;
+    border-left: 6px solid transparent;
+}
+
+.vantagens-info:hover{
+    border-left: 6px solid #e21;
+    cursor: pointer;
+}
+
+.vantagens-info:nth-child(odd){
+    background-color: rgb(249, 249, 249);
 }
 
 .vantagens-info p{
