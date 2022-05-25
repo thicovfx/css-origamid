@@ -21,7 +21,7 @@ ul{
 }
 
 h1{
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ img{
 .header{
     display: grid;
     justify-items: center;
-
+    gap: 60px;
 }
 
 .menu ul{
@@ -50,7 +50,6 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin-top: 50px;
 }
 
 .menu a{
@@ -84,7 +83,7 @@ img{
     border-radius: 5px;
 }
 
-.info{
+.intro{
     display: grid;
     justify-items: end;
     background-color: white;
@@ -95,7 +94,7 @@ img{
     position: relative;
 }
 
-.info .button{
+.intro .button{
     background-color: #ee2211;
     color: white;
     text-transform: uppercase;
